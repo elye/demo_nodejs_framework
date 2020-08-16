@@ -1,5 +1,6 @@
-const expect = require('chai').expect;
-const math = require('../../app/math');
+const { expect } = require('chai')
+const { describe, it } = require('mocha')
+const math = require('../../app/math')
 
 describe('math.js tests', () => {
     describe('math.add() Test', () => {

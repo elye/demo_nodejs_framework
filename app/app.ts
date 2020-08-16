@@ -9,7 +9,7 @@ app.get('/', function (req, res) {
     for (let i = 0; i <= 10000000; i++) {
         sum = i
     }
-    res.status(200).send('Hello World!');
+    res.status(200).send(`Hello World! ${sum}`);
 });
 
 module.exports = app;
