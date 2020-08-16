@@ -1,0 +1,8 @@
+#intellj noise
+/.idea
+
+# Dependency directories
+node_modules
+
+# Compiled module
+build
