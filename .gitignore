@@ -6,3 +6,6 @@ node_modules
 
 # Compiled module
 build
+
+# coverage check output
+.nyc_output
