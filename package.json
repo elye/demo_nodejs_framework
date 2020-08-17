@@ -10,12 +10,12 @@
     "dev-cluster": "ts-node ./app/cluster.js",
     "dev-test-unit": "nyc ts-mocha ./test/unit/**/*.js",
     "dev-test-functional": "nyc ts-mocha ./test/functional/**/*.js",
-    "dev-test:all": "npm run dev-test-unit && npm run dev-test-functional",
+    "dev-test-all": "npm run dev-test-unit && npm run dev-test-functional",
     "prod-single": "tsc && node ./build/app/single.js",
     "prod-cluster": "tsc && node ./build/app/cluster.js",
     "prod-test-unit": "tsc && nyc mocha ./build/test/unit/**/*.js",
     "prod-test-functional": "tsc && nyc mocha ./build/test/functional/**/*.js",
-    "prod-test:all": "npm run tsc && npm run prod-test-unit && npm run prod-test-functional"
+    "prod-test-all": "npm run tsc && npm run prod-test-unit && npm run prod-test-functional"
   },
   "keywords": [],
   "author": "",
